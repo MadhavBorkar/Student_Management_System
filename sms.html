@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./sms.css">
+    <title>Student Managment Sysytem</title>
+</head>
+<body>
+        <div class="container">
+            <input type="text" id="searchInput" placeholder="Search...">
+            <button id="searchButton">Search</button>
+            <div class="btn-container">
+                <button id="sortAZ">Sort A - Z</button>
+                <button id="sortZA">Sort Z - A</button>
+                <button id="sortByMarks">Sort by Marks</button>
+                <button id="sortByPassing">Sort by Passing</button>
+                <button id="sortByClass">Sort by Class</button>
+                <button id="sortByGender">Sort by Gender</button>
+            </div>
+            <table border="1px" class="table" id="studentTable">
+                <thead>
+                    <tr>
+                        <th>Id</th>
+                        <th>First Name</th>
+                        <th>Last Name</th>
+                        <th>Email</th>
+                        <th>Gender</th>
+                        <th>Img src</th>
+                        <th>Class</th>
+                        <th>Marks</th>
+                        <th>Passing</th>
+                        <th>City</th>
+                    </tr>
+                </thead>
+                <tbody>             </tbody>
+            </table>
+        </div>
+</body>
+<script src="./sms.js"></script>
+</html>
